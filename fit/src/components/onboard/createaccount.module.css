@@ -1,0 +1,38 @@
+.account_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    text-align: center;
+    height: 100vh;
+}
+
+.account_div div h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.account_div div p {
+    color: #5D6B78;
+    font-size: 16px;
+    margin-top: -17px;
+}
+.account_div div  input {
+    display: block;
+    width: 340px;
+    height: 27px;
+    border-radius: 16px;
+    border: 1px solid #E0E0E0; 
+    padding:10px;
+    background-color: #FFFFFF;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+.account_div div  input:focus {
+    border: 1px solid gray;
+    outline: none;
+}
