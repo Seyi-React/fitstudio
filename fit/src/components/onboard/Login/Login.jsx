@@ -26,11 +26,12 @@ const Login = () => {
                 placeholder="Create Password"
               />
               <button className={style.continue}>Login</button>
+              <Link className={style.forget} to="/forget">Forget Password</Link>
             </div>
           </div>
           <div className={style.or}>
             <div className={style.dash}></div>
-            <small>or login</small>
+            <small>or</small>
             <div className={style.dash}></div>
           </div>
           <div>

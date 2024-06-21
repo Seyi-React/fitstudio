@@ -6,6 +6,7 @@ import Login from "./components/onboard/Login/Login"
 import "./App.css";
 import CreateAcoount from "./components/onboard/CreateAcoount";
 import Loading from "./components/LoadingSpin/Loading";
+import ForgetPassword from "./components/onboard/ForgetPassword/ForgetPassword";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         
           <Route path="/" Component={CreateAcoount} />
           <Route path="/login" Component={Login} />
+          <Route path="/forget" Component={ForgetPassword} />
         </Routes>
       
       {/* </BrowserRouter> */}
