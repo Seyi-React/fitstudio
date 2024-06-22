@@ -1,9 +1,15 @@
 import React from "react";
 import style from "./createaccount.module.css";
 import google from "../../assets/Google.png";
-import { Link } from "react-router-dom";
+import { Link ,useNavigate} from "react-router-dom";
+
 
 const CreateAcoount = () => {
+    const navigate = useNavigate();
+
+    const handleNext = () => {
+       navigate("/details")
+    }
   return (
     <div style={{ background: "" }}>
       <div className={style.size}>
@@ -24,7 +30,7 @@ const CreateAcoount = () => {
                 id="password"
                 placeholder="Create Password"
               />
-              <button className={style.continue}>Continue</button>
+              <button className={style.continue} onClick={handleNext}>Continue</button>
             </div>
           </div>
           <div className={style.or}>

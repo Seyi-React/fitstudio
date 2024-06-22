@@ -1,0 +1,62 @@
+.role {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.role div h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+.role div small {
+    text-align: center;
+    font-size: 15px;
+    color: #5D6B78;
+    margin-top: -19px;
+    position: absolute;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 200px; */
+    margin: 20px auto;
+  }
+  
+  .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: white;
+    /* border-radius: ; */
+    height: 118px;
+    width: 400px;
+  }
+  
+  .option.selected {
+    border-color: #03B252; /* Lemon border color */
+  }
+  
+  .optionText {
+    font-size: 18px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .circle.checked {
+    background-color: #03B252; /* Marked circle color */
+  }
+  

@@ -7,6 +7,8 @@ import "./App.css";
 import CreateAcoount from "./components/onboard/CreateAcoount";
 import Loading from "./components/LoadingSpin/Loading";
 import ForgetPassword from "./components/onboard/ForgetPassword/ForgetPassword";
+import PersonalDetails from "./components/onboard/PersonalDetails/PersonalDetails";
+import Role from "./components/onboard/Role/Role";
 
 function App() {
 
@@ -26,16 +28,14 @@ function App() {
 
   return (
     <>
-      {/* <BrowserRouter> */}
       {loading && <Loading />}
         <Routes>
-        
           <Route path="/" Component={CreateAcoount} />
           <Route path="/login" Component={Login} />
           <Route path="/forget" Component={ForgetPassword} />
+          <Route path="/details" Component={PersonalDetails} />
+          <Route path="/role" Component={Role} />
         </Routes>
-      
-      {/* </BrowserRouter> */}
     </>
   );
 }
