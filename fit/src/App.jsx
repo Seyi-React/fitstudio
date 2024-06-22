@@ -9,6 +9,7 @@ import Loading from "./components/LoadingSpin/Loading";
 import ForgetPassword from "./components/onboard/ForgetPassword/ForgetPassword";
 import PersonalDetails from "./components/onboard/PersonalDetails/PersonalDetails";
 import Role from "./components/onboard/Role/Role";
+import Fitness from "./components/onboard/FitnessLevel/Fitness";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/forget" Component={ForgetPassword} />
           <Route path="/details" Component={PersonalDetails} />
           <Route path="/role" Component={Role} />
+          <Route path="/level" Component={Fitness} />
         </Routes>
     </>
   );

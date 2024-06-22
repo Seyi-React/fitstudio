@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    background-color: #F4F7FA;
 }
 .role div h3 {
     text-align: center;
@@ -36,7 +37,7 @@
     border-radius: 8px;
     background-color: white;
     /* border-radius: ; */
-    height: 118px;
+    height: 100px;
     width: 400px;
   }
   
@@ -46,17 +47,33 @@
   
   .optionText {
     font-size: 18px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   
   .circle {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     /* border: 2px solid black; */
     border-radius: 50%;
-    background-color: white;
+    background-color: #F4F7FA;
   }
   
   .circle.checked {
     background-color: #03B252; /* Marked circle color */
   }
-  
+  .continue {
+    background-color: #03B252;
+    outline: none;
+    border: none;
+    height: 47px;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
