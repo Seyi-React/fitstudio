@@ -1,0 +1,16 @@
+.goal {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #F4F7FA;
+}
+
+.goals {
+    width: 180px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid #E0E0E0;
+    cursor: pointer;
+}
