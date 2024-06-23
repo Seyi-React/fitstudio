@@ -23,7 +23,7 @@ const Fitness = () => {
         <button onClick={handleBack}> back</button>
         <div>
           <h3>Select Your Fitness Level</h3>
-          <p className={styles.how}>How often do you train</p>
+          <p className={styles.how} style={{textAlign:"center"}}>How often do you train</p>
         </div>
 
         <div className={styles.optionsContainer}>

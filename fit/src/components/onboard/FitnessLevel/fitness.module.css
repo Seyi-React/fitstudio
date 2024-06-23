@@ -7,12 +7,12 @@
     background-color: #F4F7FA;
 }
 .role div h3 {
-    text-align: center;
-    font-weight: 800;
-    font-size: 30px;
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 27px;
 }
 .how {
-    text-align: center;
+    /* text-align: center; */
     font-size: 15px;
     color: #5D6B78;
     margin-top: -19px;
@@ -25,6 +25,7 @@
     gap: 10px;
     /* width: 200px; */
     margin: 20px auto;
+    height: 500px;
   }
   
   .option {
@@ -38,7 +39,8 @@
     background-color: white;
     /* border-radius: ; */
     height: 100px;
-    width: 400px;
+    width: 350px;
+    font-weight: 400;
   }
   
   .option.selected {
@@ -51,6 +53,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+ 
   }
   
   .circle {
@@ -76,6 +79,15 @@
     font-size: 16px;
     margin-top: 2rem;
     cursor: pointer;
+  }
+  .optionText h4 {
+    font-weight: 500;
+  }
+  .optionText small {
+    font-size: 14px;
+    color: #5D6B78;
+    margin-top: -20px;
+    position: absolute;
   }
 
 
