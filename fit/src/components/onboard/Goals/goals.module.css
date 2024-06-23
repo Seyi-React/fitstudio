@@ -34,3 +34,25 @@
     margin-top: -19px;
     color: #5D6B78;
 }
+.goals.selected {
+    background-color: #03B252;
+    color: white;
+}
+.continue {
+    background-color: #03B252;
+    outline: none;
+    border: none;
+    height: 47px;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 360px;
+    /* margin-top: 1.5rem; */
+}
+.top {
+    margin-top: 2.5rem;
+}
