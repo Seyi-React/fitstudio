@@ -1,0 +1,99 @@
+.role {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #F4F7FA;
+}
+.role div h3 {
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 27px;
+}
+.how {
+    /* text-align: center; */
+    font-size: 15px;
+    color: #5D6B78;
+    margin-top: -19px;
+    position: absolute;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 200px; */
+    margin: 20px auto;
+    height: 500px;
+  }
+  
+  .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: white;
+    /* border-radius: ; */
+    height: 100px;
+    width: 350px;
+    font-weight: 400;
+  }
+  
+  .option.selected {
+    border-color: #03B252; /* Lemon border color */
+  }
+  
+  .optionText {
+    font-size: 18px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+ 
+  }
+  
+  .circle {
+    width: 25px;
+    height: 25px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    background-color: #F4F7FA;
+  }
+  
+  .circle.checked {
+    background-color: #03B252; /* Marked circle color */
+  }
+  .continue {
+    background-color: #03B252;
+    outline: none;
+    border: none;
+    height: 47px;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  .optionText h4 {
+    font-weight: 500;
+  }
+  .optionText small {
+    font-size: 14px;
+    color: #5D6B78;
+    margin-top: -20px;
+    position: absolute;
+  }
+
+
+
+  @media screen and (max-width:500px) {
+    .option {
+        width: 300px;
+    }
+  }

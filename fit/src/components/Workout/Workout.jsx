@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./fitness.module.css"
+import styles from "./workout.module.css"
 
 const Workout = () => {
   const [selectedOption, setSelectedOption] = useState(null);
@@ -22,7 +22,7 @@ const Workout = () => {
       <div className={styles.role}>
         <button onClick={handleBack}> back</button>
         <div>
-          <h3>Select Your Fitness Level</h3>
+          <h3>Select Your Workout Schedule</h3>
           <p className={styles.how} style={{textAlign:"center"}}>How often do you train</p>
         </div>
 
@@ -34,7 +34,7 @@ const Workout = () => {
             onClick={() => handleSelect("beginner")}
           >
             <div className={styles.optionText}>
-              <h4>Beginner</h4>
+              <h4>Morning Session</h4>
               <small>I havent trianed at all</small>
             </div>
             <div
@@ -52,7 +52,7 @@ const Workout = () => {
           >
             <div className={styles.optionText}>
               {" "}
-              <h4>Intermediate</h4>
+              <h4>Afternnon Session</h4>
               <small>I trianed 1-2 in a week</small>
             </div>
             <div
@@ -69,7 +69,7 @@ const Workout = () => {
           >
             <div className={styles.optionText}>
               {" "}
-              <h4>Advanced</h4>
+              <h4>Evening Session</h4>
               <small>I train more 4 times a week</small>
             </div>
             <div

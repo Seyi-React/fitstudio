@@ -13,8 +13,8 @@ const Goals = () => {
   const handleBack = () => {
     navigate("/level");
   };
-  const handleBack = () => {
-    navigate("/level");
+  const handleNext = () => {
+    navigate("/work");
   };
   return (
     <div>
@@ -83,7 +83,7 @@ const Goals = () => {
           </div>
         </div>
        
-        <button className={style.continue}>Continue</button>
+        <button className={style.continue} onClick={handleNext}>Continue</button>
       </div>
     </div>
   );
