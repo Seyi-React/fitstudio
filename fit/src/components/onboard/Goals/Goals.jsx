@@ -13,6 +13,9 @@ const Goals = () => {
   const handleBack = () => {
     navigate("/level");
   };
+  const handleBack = () => {
+    navigate("/level");
+  };
   return (
     <div>
       <div className={style.goal}>

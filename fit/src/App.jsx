@@ -11,6 +11,7 @@ import PersonalDetails from "./components/onboard/PersonalDetails/PersonalDetail
 import Role from "./components/onboard/Role/Role";
 import Fitness from "./components/onboard/FitnessLevel/Fitness";
 import Goals from "./components/onboard/Goals/Goals";
+import Workout from "./components/Workout/Workout";
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/role" Component={Role} />
           <Route path="/level" Component={Fitness} />
           <Route path="/goals" Component={Goals} />
+          <Route path="/work" Component={Workout} />
         </Routes>
     </>
   );
