@@ -11,11 +11,11 @@ const Workout = () => {
   };
 
   const handleBack = () => {
-    navigate("/role")
+    navigate("/work")
   }
 
   const handleNext = () => {
-    navigate("/goals")
+    navigate("/medical")
   }
   return (
     <div>
