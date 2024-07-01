@@ -8,7 +8,7 @@ const Medical = () => {
     const navigate = useNavigate();
 
     const handleNext = () => {
-       navigate("/details")
+       navigate("/set-up")
     }
   return (
     <div style={{ background: "" }}>

@@ -4,7 +4,7 @@ import Login from "./components/onboard/Login/Login"
 
 
 import "./App.css";
-import CreateAcoount from "./components/onboard/CreateAcoount";
+import CreateAcoount from "./components/onboard/CreatAccount/CreateAcoount";
 import Loading from "./components/LoadingSpin/Loading";
 import ForgetPassword from "./components/onboard/ForgetPassword/ForgetPassword";
 import PersonalDetails from "./components/onboard/PersonalDetails/PersonalDetails";
@@ -13,6 +13,7 @@ import Fitness from "./components/onboard/FitnessLevel/Fitness";
 import Goals from "./components/onboard/Goals/Goals";
 import Workout from "./components/Workout/Workout";
 import Medical from "./Medical/Medical";
+import SetUp from "./components/SetUp/SetUp";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="/goals" Component={Goals} />
           <Route path="/work" Component={Workout} />
           <Route path="/medical" Component={Medical} />
+          <Route path="/set-up" Component={SetUp} />
         </Routes>
     </>
   );
