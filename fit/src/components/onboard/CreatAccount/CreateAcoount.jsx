@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./createaccount.module.css";
-import google from "../../assets/Google.png";
+import google from "../../../assets/Google.png";
 import { Link ,useNavigate} from "react-router-dom";
 
 
